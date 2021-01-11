@@ -57,7 +57,7 @@ nav {
 }
 
 .nav-background {
-  background-color: rgba(14, 23, 101, 0.4);
+  background-color: rgb(14, 23, 101);
   width: 100vw;
   display: flex;
   justify-content: center;
