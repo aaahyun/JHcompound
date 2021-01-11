@@ -1,0 +1,1 @@
+alert('JS test! wish this work well');

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>정현콤파운드</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="javascript" href="mobile.js">
 </head>
 <body>
     <div class="bg-gradient">
@@ -208,5 +207,22 @@
         </div>
         </div>
     </footer>
+    <script type="text/javascript">
+
+        var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson','Windows Phone');
+        
+        for (var word in mobileKeyWords){
+        
+        if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+        
+        location.href = "index-mobile.html";
+        
+        break;
+        
+        }
+        
+        }
+        
+        </script>
 </body>
 </html>

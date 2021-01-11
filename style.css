@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap");
 @import url("bearing-animation.css");
-@media screen and (max-width: 550px) and {
-  body {
-    color: blue;
-  }
-}
 html {
   scroll-behavior: smooth;
 }
