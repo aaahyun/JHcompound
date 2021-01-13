@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap");
 @import url("bearing-animation.css");
+@import url("menu.css");
 
 html {
   scroll-behavior: smooth;
@@ -49,16 +50,8 @@ nav {
   height: 18px;
 }
 
-.nav-item {
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 700;
-  margin-left: 32px;
-  width: 892px;
-}
-
 .nav-background {
-  background-color: rgba(14, 23, 101, 0.4);
+  background-color: #0b1253;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -120,7 +113,7 @@ nav {
   justify-content: space-between;
   position: absolute;
   bottom: -200px;
-  z-index: 99;
+  z-index: 80;
   padding: 40px 0 60px 0;
   width: 90vw;
 }
