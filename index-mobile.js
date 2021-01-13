@@ -5,5 +5,5 @@ var CLOSS_BTN = document.querySelector('.close-btn');
 HAMBURGER.addEventListener('click', function() {
     MENU.classList.toggle('hidden');
     CLOSS_BTN.classList.toggle('hidden-btn');
-};
+}
 
