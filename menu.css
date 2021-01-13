@@ -11,17 +11,13 @@
   align-items: center;
 }
 
-.hidden-btn {
-  opacity: 0;
-}
-
 .close-btn {
   position: absolute;
   right: 0;
   margin-right: 18px;
 }
 .hidden {
-  left: -80vw;
+  display: none;
 }
 .menu-items {
   display: flex;
