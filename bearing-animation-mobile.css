@@ -1,0 +1,59 @@
+.brg-unassembled img {
+  width: 400px;
+  position: absolute;
+  top: -60px;
+  right: 24px;
+  transform: rotateZ(45deg);
+}
+.brg-unassembled {
+  width: 400px;
+  height: 400px;
+  animation: roll 3s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes roll {
+  0% {
+    transform: inherit;
+  }
+  50% {
+    transform: rotateZ(45deg) translateX(80px);
+  }
+  100% {
+    transform: rotateZ(45deg) translateY(500px) translateX(500px);
+  }
+}
+@keyframes fade-up {
+  from {
+    transform: rotateZ(45deg);
+    opacity: 100%;
+  }
+  to {
+    transform: translateY(-200px) translateX(-200px) rotateZ(45deg);
+    opacity: 0%;
+  }
+}
+.brg-unassembled img:nth-child(4) {
+  animation: fade-up 1.5s ease-out forwards;
+  animation-delay: 2.5s;
+}
+.brg-unassembled img:nth-child(3) {
+  animation: fade-up 1.5s ease-out forwards;
+  animation-delay: 3s;
+}
+.brg-unassembled img:nth-child(1) {
+  animation: fade-up 1s ease-out forwards;
+  animation-delay: 3.5s;
+}
+.brg-unassembled img:last-child {
+  animation: fade-up 1.5s ease-out forwards;
+  animation-delay: 2.5s;
+}
+@keyframes fade-out {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0;
+  }
+}

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap");
-@import url("bearing-animation.css");
+@import url("bearing-animation-mobile.css");
 @import url("menu.css");
 
 html {
@@ -61,6 +61,7 @@ nav {
 }
 
 .hero-copy {
+  margin-top: -60px;
   font-size: 38px;
 }
 .h1 {
@@ -81,15 +82,17 @@ nav {
 }
 .cb-section1 {
   margin-bottom: 440px;
-  margin-top: 144px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
+  justify-content: center;
   width: 80vw;
 }
 
 .cb-section2 {
   color: #ffffff;
+  margin-top: -120px;
 }
 .cb-section2-body {
   font-size: 24px;
@@ -234,7 +237,7 @@ nav {
 
 .product-type {
   width: 80vw;
-  margin: 220px 0 160px 0;
+  margin: 180px 0 160px 0;
 }
 .product-type-column {
   display: flex;
