@@ -6,3 +6,7 @@
 
 
 console.log(window.screen.width);
+
+ window.addEventListener('scroll', function() {
+     console.log("Scrolling")
+ })
