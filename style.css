@@ -39,8 +39,6 @@ nav {
   padding-bottom: 24px;
   width: 892px;
 }
-.contents {
-}
 
 .nav-logo {
   width: 196px;
@@ -63,6 +61,7 @@ nav {
   height: 68px;
   position: fixed;
   z-index: 100;
+  left: 0;
 }
 
 .hero-copy {
